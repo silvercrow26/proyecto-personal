@@ -1,0 +1,153 @@
+h5 {
+    margin: 0%;
+}
+.container {
+    align-content: center;
+}
+.modal-title,
+.modal-content {
+    color: #212529;
+    text-align: center;
+}
+.btns {
+    min-width: 60%;
+}
+.button-update {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.alerta p {
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        column-gap: 0;
+        margin: 1rem;
+    }
+    .card-fondo {
+        background-color: #343a40;
+        margin: 1rem 0rem 1rem 1rem;
+        border: none;
+    }
+
+    .alerta {
+        grid-column: 1/3;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar .container-avatar {
+        width: 35px;
+        height: 35px;
+        overflow: hidden;
+        margin-top: 0.22rem;
+    }
+
+    .navbar .container-avatar img {
+        height: 100%;
+    }
+    .form-campo {
+        padding-bottom: 2.2rem;
+    }
+
+    .profile-user .container-avatar {
+        width: 18rem;
+        overflow: hidden;
+        margin: auto;
+    }
+    .profile-user .container-avatar img{
+        height: 100%;
+    }
+    
+}
+.card-fondo {
+    background-color: #343a40;
+    border: none;
+}
+.card-text {
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+    padding-bottom: 0.8rem;
+} 
+.card-body img{
+    width: 100%;
+}
+
+/* AVATAR PAGINA INICIO */
+.pub_image {
+    margin-bottom: 2.5rem;
+}
+.pub_image .nickname {
+    color:gray;
+}
+
+.pub_image .container-avatar {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    margin-top: 0.22rem;
+    margin-right: 0.6rem;
+    float: left;
+}
+.pub_image .container-avatar img {
+    height: 100%;
+}
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 2.4rem;
+}
+.pub_image .description{
+    padding: 0 2rem 0 2rem;
+}
+.pub_image .btn-comments{
+    margin: 0 2rem 0rem 2rem;
+}
+
+.likes {
+    padding: 0 2rem 0.5rem 2rem;
+}
+.likes img{
+    width: 2rem;
+}
+.pub_image .comments {
+    padding: 0 2rem 0 2rem;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    margin-left: 0.5rem;
+}
+
+.profile-user {
+    margin-bottom: 2rem;
+    margin: auto;
+    text-align: center;
+}
+.profile-user .container-avatar {
+    overflow: hidden;
+}
+
+.profile-user .container-avatar img{
+    height: 100%;
+    float: left;
+}
+.pro {
+    margin-top: 1rem;
+}
+
+.action {
+    padding: 0 0 2rem 2rem;
+}
+
+.action a{
+    margin-left: 0;
+}
+
