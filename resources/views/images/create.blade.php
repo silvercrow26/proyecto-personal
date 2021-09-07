@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h1>Subir imagenes</h1>
+                <h1>Subir imágenes</h1>
                 <div class="card">
                     <div class="card-header">Subir nueva imagen</div>
                     <div class="card-body">
