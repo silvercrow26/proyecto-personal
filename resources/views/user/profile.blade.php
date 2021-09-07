@@ -5,10 +5,10 @@
             <div class="col-md-8">
                 <div class="profile-user">
 
-                    @if (auth::user()->image)
+                    @if ($user->image)
                         <div class="rounded-circle container-avatar">
                             <img class="card-img-top avatar"
-                                src="{{ route('user.avatar', ['fileName' => auth::user()->image]) }}"
+                                src="{{ route('user.avatar', ['fileName' => $user->image]) }}"
                                 alt="Card image cap">
                         </div>
                     @endif
