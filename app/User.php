@@ -10,13 +10,16 @@ class User extends Authenticatable
 {
     use Notifiable;
 
-    protected $table = 'user'; //Acceso a la tabla de mi base de datos.
+    // Indico que tabla va a usar en la base de datos.
+    protected $table = 'user'; 
+    
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
-    protected $fillable = [
+    
+     protected $fillable = [
         'role', 'name', 'surname', 'nick', 'email', 'password',
     ];
 
