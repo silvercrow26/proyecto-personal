@@ -90,5 +90,4 @@ class UserController extends Controller
             'listaUsuarios' => $listaUsuarios
         ]);
     }
-
 }

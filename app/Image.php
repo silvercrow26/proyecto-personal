@@ -15,8 +15,9 @@ class Image extends Model
     // Cuando creo el objeto image puedo llamar al metodo comments, este metodo accede al ORM Comment, 
     // dentro de este ORM tengo dos metodos, users e images.
 
+    // Relacion One To Many, hasMany necesita un parametro principal que vendría a ser la relacion
     public function comments() {
-        return $this->hasMany('App\Comment')->orderBy('id','desc'); // Relacion One To Many, hasMany necesita un parametro principal, la relacion, en este caso Comment
+        return $this->hasMany('App\Comment')->orderBy('id','desc'); 
     }
     
     //Relacion One To Many

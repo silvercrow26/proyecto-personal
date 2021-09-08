@@ -10,7 +10,7 @@ class User extends Authenticatable
 {
     use Notifiable;
 
-    // Indico que tabla va a usar en la base de datos.
+    // Indico que tabla va a usar este modelo en la base de datos.
     protected $table = 'user'; 
     
     /**

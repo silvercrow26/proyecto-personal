@@ -64,7 +64,7 @@ return [
             'visibility' => 'public',
         ],
 
-        // Disk user
+        // Disk image
         'image' => [
             'driver' => 'local',
             'root' => storage_path('app/image'),
